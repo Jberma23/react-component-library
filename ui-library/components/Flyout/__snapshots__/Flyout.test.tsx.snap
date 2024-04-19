@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flyout matches the snapshot when closed 1`] = `
+<DocumentFragment>
+  <div
+    aria-hidden="true"
+    class="fixed top-[64px] left-0 right-0 bottom-0 z-50 pointer-events-none"
+  >
+    <div
+      class="fixed h-[calc(100%-64px)] bg-white z-20 overflow-auto shadow-1 duration-default transition-all left-0 w-screen h-screen -translate-x-[150%]"
+    />
+    <div
+      aria-hidden="true"
+      class="flyout-overlay fixed w-full h-full inset-0 transition-opacity duration-default bg-black/50 opacity-0 pointer-events-none z-10"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Flyout matches the snapshot when open 1`] = `
+<DocumentFragment>
+  <div
+    aria-hidden="false"
+    class="fixed top-[64px] left-0 right-0 bottom-0 z-50 pointer-events-auto"
+  >
+    <div
+      class="fixed h-[calc(100%-64px)] bg-white z-20 overflow-auto shadow-1 duration-default transition-all left-0 w-screen h-screen translate-x-[0%]"
+    >
+      Hello World
+    </div>
+    <div
+      aria-hidden="false"
+      class="flyout-overlay fixed w-full h-full inset-0 transition-opacity duration-default bg-black/50 pointer-events-auto z-10"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Flyout matches the snapshot with defaults 1`] = `
+<DocumentFragment>
+  <div
+    aria-hidden="true"
+    class="fixed top-[64px] left-0 right-0 bottom-0 z-50 pointer-events-none"
+  >
+    <div
+      class="fixed h-[calc(100%-64px)] bg-white z-20 overflow-auto shadow-1 duration-default transition-all left-0 min-w-full md:min-w-[350px] min-h-[200px] -translate-x-[150%]"
+    />
+    <div
+      aria-hidden="true"
+      class="flyout-overlay fixed w-full h-full inset-0 transition-opacity duration-default bg-black/50 opacity-0 pointer-events-none z-10"
+    />
+  </div>
+</DocumentFragment>
+`;

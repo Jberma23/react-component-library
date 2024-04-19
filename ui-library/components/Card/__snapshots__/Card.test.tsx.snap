@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders with defaults 1`] = `
+<DocumentFragment>
+  <div
+    class="rounded-3 transition duration-default bg-white shadow-0"
+  >
+    test card
+  </div>
+</DocumentFragment>
+`;

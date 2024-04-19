@@ -1,0 +1,24 @@
+{
+  "Scaffold Story File": {
+    "scope": "typescriptreact",
+    "prefix": ["@story-file", "new_story-file"],
+    "description": "Add the basic imports and structure of a new story file",
+    "body": [
+      "import { Meta, StoryObj } from \"@storybook/react\";",
+      "import { ${TM_DIRECTORY/^.+\\/(.*)$/$1/} } from \"./${TM_DIRECTORY/^.+\\/(.*)$/$1/}\";",
+      "",
+      "const meta: Meta<typeof ${TM_DIRECTORY/^.+\\/(.*)$/$1/}> = {",
+      "  title: \"Den/${TM_DIRECTORY/^.+\\/(.*)$/$1/}\",",
+      "  component: ${TM_DIRECTORY/^.+\\/(.*)$/$1/},",
+      "  args: {},",
+      "};",
+      "export default meta;",
+      "",
+      "type Story = StoryObj<typeof ${TM_DIRECTORY/^.+\\/(.*)$/$1/}>;",
+      "",
+      "export const Default: Story = {};",
+      ""
+    ],
+    "isFileTemplate": true
+  }
+}

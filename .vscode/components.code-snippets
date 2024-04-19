@@ -1,0 +1,38 @@
+{
+  "New component file": {
+    "scope": "typescriptreact",
+    "prefix": ["@component-file", "new_component-file"],
+    "description": "Add the basic imports and structure of a new component file",
+    "body": [
+      "export type ${TM_FILENAME_BASE}Props = {",
+      "  children: React.ReactNode;",
+      "};",
+      "",
+      "export const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({ children }) => {",
+      "  return <>{children}</>;",
+      "}",
+      ""
+    ],
+    "isFileTemplate": true
+  },
+  "New component file with CVA": {
+    "scope": "typescriptreact",
+    "prefix": ["@component-file-cva", "new_component-file-cva"],
+    "description": "Add the basic imports and structure of a new component file",
+    "body": [
+      "import { cva, VariantProps } from \"cva\";",
+      "",
+      "const ${TM_FILENAME_BASE}Styles = cva([]);",
+      "",
+      "export type ${TM_FILENAME_BASE}Props = {",
+      "  children: React.ReactNode;",
+      "} & VariantProps<typeof ${TM_FILENAME_BASE}Styles>;",
+      "",
+      "export const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({ children }) => {",
+      "  return <>{children}</>;",
+      "}",
+      ""
+    ],
+    "isFileTemplate": true
+  }
+}

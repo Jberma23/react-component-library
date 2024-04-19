@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-library/components/Link/Link.tsx renders with defaults 1`] = `
+<DocumentFragment>
+  <a
+    class="items-center outline-2 outline-offset-2 focus-visible:outline-brand cursor-pointer text-primary hover:underline"
+    href="/foo/bar"
+    tabindex="0"
+  >
+    test link
+  </a>
+</DocumentFragment>
+`;

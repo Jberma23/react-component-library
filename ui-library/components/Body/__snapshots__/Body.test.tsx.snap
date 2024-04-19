@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-library/components/Body/Body.tsx renders with defaults 1`] = `
+<DocumentFragment>
+  <div
+    class="leading-body font-regular text-body-regular"
+  >
+    test body
+  </div>
+</DocumentFragment>
+`;

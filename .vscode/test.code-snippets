@@ -1,0 +1,43 @@
+{
+  "Scaffold Test File": {
+    "scope": "typescriptreact",
+    "prefix": ["@test-file", "new_test-file"],
+    "description": "Add the basic imports and structure of a new test file, adding a test for a simple snapshot and a11y checks",
+    "body": [
+      "import { render } from \"@testing-library/react\";",
+      "import { ${TM_DIRECTORY/^.+\\/(.*)$/$1/} } from \".\";",
+      "",
+      "describe(${TM_DIRECTORY/^.+\\/(.*)$/$1/}, () => {",
+      "  it(\"renders with required props\", () => {",
+      "    const { asFragment } = render(<${TM_DIRECTORY/^.+\\/(.*)$/$1/}>Hello World</${TM_DIRECTORY/^.+\\/(.*)$/$1/}>);",
+      "    expect(asFragment()).toMatchSnapshot();",
+      "  });",
+      "",
+      "  it(\"passes all a11y checks\", async () => {",
+      "    await expect(<${TM_DIRECTORY/^.+\\/(.*)$/$1/}>Hello World</${TM_DIRECTORY/^.+\\/(.*)$/$1/}>).toBeA11yWhenRendered();",
+      "  });",
+      "});"
+    ],
+    "isFileTemplate": true
+  },
+  "useAnalytics Mock": {
+    "scope": "typescriptreact",
+    "prefix": ["@useAnalyticsMock"],
+    "description": "Add the code used for mocking the useAnalytics hook",
+    "body": [
+      "import { useAnalytics } from \"~/components/Analytics\";",
+      "",
+      "jest.mock(\"~/components/Analytics\");",
+      "",
+      "const useAnalyticsMock = useAnalytics as jest.Mock;",
+      "const analyticsEnhancedTrackMock = jest.fn();",
+      "",
+      "// Add to a beforeEach hook",
+      "useAnalyticsMock.mockReturnValue({",
+      "  analyticsUserIdentified: true,",
+      "  analyticsEnhancedTrack: analyticsEnhancedTrackMock,",
+      "});",
+      ""
+    ]
+  }
+}

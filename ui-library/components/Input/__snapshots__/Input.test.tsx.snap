@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-library/components/Button/Button.tsx renders when disabled 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col gap-xxs min-w-0"
+  >
+    <label
+      for=":r2:"
+    >
+      My Label
+    </label>
+    <input
+      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-brand focus-visible:border-brand focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast bg-gray-100 cursor-not-allowed"
+      disabled=""
+      id=":r2:"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ui-library/components/Button/Button.tsx renders with defaults and a label 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col gap-xxs min-w-0"
+  >
+    <label
+      for=":r1:"
+    >
+      My Label
+    </label>
+    <input
+      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-brand focus-visible:border-brand focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast"
+      id=":r1:"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ui-library/components/Button/Button.tsx renders with defaults and no label 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col gap-xxs min-w-0"
+  >
+    <input
+      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-brand focus-visible:border-brand focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast"
+      id=":r0:"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ui-library/components/Button/Button.tsx renders with fullWidth 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col gap-xxs min-w-0 w-full"
+  >
+    <label
+      for=":r3:"
+    >
+      My Label
+    </label>
+    <input
+      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-brand focus-visible:border-brand focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast w-full"
+      id=":r3:"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders with defaults 1`] = `
+<DocumentFragment>
+  <button
+    class="border-1 border-transparent rounded-3 ring-offset-1 focus-visible:ring-2 focus-visible:ring-brand transition-colors duration-default bg-gray-200 hover:bg-gray-300 active:bg-gray-400 text-black h-[2.5rem] px-[1rem] py-0 leading-body font-semibold text-body-regular"
+  >
+    <div
+      class="flex flex-row gap-xxs"
+    >
+      <div
+        class="flex-1"
+      >
+        test button
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;

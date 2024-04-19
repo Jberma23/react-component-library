@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonLoader renders with defaults 1`] = `
+<DocumentFragment>
+  <span
+    aria-busy="false"
+    aria-live="polite"
+  >
+    <span
+      class="react-loading-skeleton motion-safe:animate-pulse"
+      style="--pseudo-element-display: none; border-radius: 3px; --base-color: #E5E5E5;"
+    >
+      ‌
+    </span>
+    <br />
+  </span>
+</DocumentFragment>
+`;

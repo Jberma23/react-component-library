@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClampedText renders with required props 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="text-body-regular line-clamp-3"
+    >
+      short king test caption
+    </div>
+  </div>
+</DocumentFragment>
+`;

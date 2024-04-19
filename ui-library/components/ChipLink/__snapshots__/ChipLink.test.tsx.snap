@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Chip/Chip.tsx renders with defaults 1`] = `
+<DocumentFragment>
+  <a
+    class="rounded-3 font-semibold outline-none focus-visible:shadow-chip transition-colors duration-default"
+    href="/foo/bar"
+  >
+    Chip
+  </a>
+</DocumentFragment>
+`;

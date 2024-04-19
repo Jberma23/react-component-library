@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders with required props 1`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center justify-center w-[40px] h-[40px] p-s rounded-full border-4 bg-primary-200 border-solid border-white hover:border-gray-300 active:border-primary-300 duration-default transition-colors"
+  >
+    Hello World
+  </div>
+</DocumentFragment>
+`;

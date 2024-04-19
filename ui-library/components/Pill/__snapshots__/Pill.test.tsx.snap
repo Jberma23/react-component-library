@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pill renders with children and defaults 1`] = `
+<DocumentFragment>
+  <div
+    class="leading-body font-semibold text-body-regular w-fit px-[0.75rem] py-[0.125rem] border-1 rounded-[50px] whitespace-nowrap bg-primary-50 border-gray-700 text-gray-800"
+  >
+    Hot Dogs
+  </div>
+</DocumentFragment>
+`;

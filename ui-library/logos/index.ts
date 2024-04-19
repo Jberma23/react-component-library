@@ -1,0 +1,18 @@
+export { default as McDonaldsLogo } from "./McDonaldsLogo";
+export { default as AirBnbLogo } from "./AirBnbLogo";
+export { default as AmazonLogo } from "./AmazonLogo";
+export { default as AppleLogo} from "./AppleLogo";
+export { default as CocaColaLogo} from "./CocaColaLogo";
+export { default as EthereumLogo} from "./EthereumLogo";
+export { default as FacebookLogo} from "./FacebookLogo";
+export { default as MessengerLogo} from "./MessengerLogo";
+export { default as GoogleLogo} from "./GoogleLogo";
+export { default as GooglePlayLogo} from "./GooglePlayLogo";
+export { default as HeinekenLogo} from "./HeinekenLogo";
+export { default as InstagramLogo} from "./InstagramLogo";
+export { default as SlackLogo} from "./SlackLogo";
+export { default as SnapchatLogo} from "./SnapchatLogo";
+export { default as SoundCloudLogo} from "./SoundCloudLogo";
+export { default as TikTokLogo} from "./TikTokLogo";
+export { default as TinderLogo} from "./TinderLogo";
+export { default as TwitterLogo} from "./TwitterLogo";
