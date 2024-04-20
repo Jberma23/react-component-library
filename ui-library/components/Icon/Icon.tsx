@@ -10,7 +10,12 @@ const iconSizes = {
 export type IconSize = keyof typeof iconSizes;
 
 export interface IconProps extends React.SVGProps<SVGSVGElement> {
-  SvgIcon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  SvgIcon: React.ComponentType<
+    React.PropsWithoutRef<React.ComponentProps<"svg">> & {
+      title?: string | undefined;
+      titleId?: string | undefined;
+    }
+  >;
   size?: IconSize;
 }
 

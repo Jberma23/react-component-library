@@ -1,4 +1,4 @@
-import { Listbox } from "@headlessui/react";
+import { Label, Listbox } from "@headlessui/react";
 import { cx } from "cva";
 import { ReactNode, forwardRef, useId } from "react";
 import { Card, Icon } from "@ui-library/index";
@@ -38,7 +38,7 @@ export const Select = forwardRef<HTMLElement, SelectProps<OptionData>>(
       <div className="flex flex-col gap-xxs w-full">
         <Listbox onChange={onChange} ref={ref} value={selected}>
           {label ? (
-            <Listbox.Label htmlFor={inputId}>{label}</Listbox.Label>
+            <Label htmlFor={inputId}>{label}</Label>
           ) : null}
           <Listbox.Button
             aria-label="Select button"

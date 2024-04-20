@@ -1,4 +1,4 @@
-import {animation, scale} from "tailwindcss/defaultTheme"
+const { animation, scale } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
