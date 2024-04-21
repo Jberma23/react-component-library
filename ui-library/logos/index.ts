@@ -1,4 +1,4 @@
-export { default as McDonaldsLogo } from "./McDonaldsLogo";
+export { default as McDonaldLogo } from "./McDonaldLogo";
 export { default as AirBnbLogo } from "./AirBnbLogo";
 export { default as AmazonLogo } from "./AmazonLogo";
 export { default as AppleLogo} from "./AppleLogo";

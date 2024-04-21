@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { UserIcon } from "@ui-library/index";
+import { UserIcon } from "@ui-library/icons";
 import { Icon } from "./Icon";
 
 describe(Icon, () => {

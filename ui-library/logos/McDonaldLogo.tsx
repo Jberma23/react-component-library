@@ -4,7 +4,7 @@ interface SVGRProps {
   title?: string;
   titleId?: string;
 }
-const SvgMcDonaldsLogo = ({
+const SvgMcDonaldLogo = ({
   title,
   titleId,
   width,
@@ -14,6 +14,7 @@ const SvgMcDonaldsLogo = ({
   <svg
     viewBox="2.096 -27.722 295.809 295.809"
     xmlns="http://www.w3.org/2000/svg"
+    data-testid="mcdonalds-logo"
     aria-labelledby={titleId}
     width={width}
     height={height}
@@ -25,4 +26,4 @@ const SvgMcDonaldsLogo = ({
     />
   </svg>
 );
-export default SvgMcDonaldsLogo;
+export default SvgMcDonaldLogo;

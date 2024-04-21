@@ -16,7 +16,10 @@ export interface IconProps extends React.SVGProps<SVGSVGElement> {
       titleId?: string | undefined;
     }
   >;
+  title?: string;
+  titleId?: string;
   size?: IconSize;
+  className?: string
 }
 
 const iconStyles = cva(["fill-current inline"]);

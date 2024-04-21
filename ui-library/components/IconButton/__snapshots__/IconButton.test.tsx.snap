@@ -3,7 +3,7 @@
 exports[`IconButton should match snapshot 1`] = `
 <DocumentFragment>
   <button
-    class="h-[40px] h-[40px] px-xs border-1 border-transparent rounded-3 ring-offset-1 focus-visible:ring-2 focus-visible:ring-brand transition-colors duration-default bg-gray-200 hover:bg-gray-300 active:bg-gray-400 text-black w-fit leading-body font-semibold text-body-regular"
+    class="h-[40px] h-[40px] px-xs border-1 border-transparent rounded-md ring-offset-1 focus-visible:ring-2 focus-visible:ring-brand transition-colors duration-default bg-gray-200 hover:bg-gray-300 active:bg-gray-400 text-black w-fit leading-body font-semibold text-body-regular"
   >
     <div
       class="flex flex-row gap-xxs"
@@ -14,6 +14,7 @@ exports[`IconButton should match snapshot 1`] = `
         <svg
           aria-hidden="true"
           class="fill-current inline"
+          data-slot="icon"
           fill="none"
           height="24"
           stroke="currentColor"
@@ -23,7 +24,7 @@ exports[`IconButton should match snapshot 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
             stroke-linecap="round"
             stroke-linejoin="round"
           />

@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import { MagnifyingGlassIcon } from "@ui-library/index";
+import { MagnifyingGlassIcon } from "@ui-library/icons";
 import { IconButton } from ".";
 
 describe("IconButton", () => {
