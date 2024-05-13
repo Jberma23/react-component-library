@@ -11,7 +11,7 @@ exports[`ui-library/components/Button/Button.tsx renders when disabled 1`] = `
       My Label
     </label>
     <input
-      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-brand focus-visible:border-brand focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast bg-gray-100 cursor-not-allowed"
+      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-teal-500 focus-visible:border-teal-500 focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast bg-gray-100 cursor-not-allowed"
       disabled=""
       id=":r2:"
     />
@@ -30,7 +30,7 @@ exports[`ui-library/components/Button/Button.tsx renders with defaults and a lab
       My Label
     </label>
     <input
-      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-brand focus-visible:border-brand focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast"
+      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-teal-500 focus-visible:border-teal-500 focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast"
       id=":r1:"
     />
   </div>
@@ -43,7 +43,7 @@ exports[`ui-library/components/Button/Button.tsx renders with defaults and no la
     class="flex flex-col gap-xxs min-w-0"
   >
     <input
-      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-brand focus-visible:border-brand focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast"
+      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-teal-500 focus-visible:border-teal-500 focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast"
       id=":r0:"
     />
   </div>
@@ -61,7 +61,7 @@ exports[`ui-library/components/Button/Button.tsx renders with fullWidth 1`] = `
       My Label
     </label>
     <input
-      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-brand focus-visible:border-brand focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast w-full"
+      class="border-1 border-gray-300 rounded-3 p-xs focus-visible:outline focus-visible:outline-teal-500 focus-visible:border-teal-500 focus-visible:outline-offset-0 outline-offset-0 transition-all duration-fast w-full"
       id=":r3:"
     />
   </div>

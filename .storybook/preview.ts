@@ -26,6 +26,23 @@ const preview: Preview = {
         ...customViewports,
       },
     },
+    backgrounds: {
+      default: 'figma',
+      values: [
+        {
+          name: 'figma',
+          value: '#F5F5F5',
+        },
+        {
+          name: 'twitter',
+          value: '#00aced',
+        },
+        {
+          name: 'facebook',
+          value: '#3b5998',
+        },
+      ],
+    },
   },
   globalTypes: {
     darkMode: {

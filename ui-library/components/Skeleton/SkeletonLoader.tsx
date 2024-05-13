@@ -2,7 +2,7 @@ import { cva, cx, VariantProps } from "cva";
 import Skeleton, { SkeletonProps } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { KeyValuePair, RecursiveKeyValuePair } from "tailwindcss/types/config";
-import { theme } from "@ui-library/design-tokens/theme";
+import config from "~/tailwind.config";
 
 const skeletonStyles = cva([], {
   defaultVariants: {
@@ -25,12 +25,12 @@ export interface SkeletonLoaderProps
 /* istanbul ignore next */
 const defaultBaseColor =
   ((
-    (theme!.colors as RecursiveKeyValuePair<string, string>)
+    (config.theme!.extend!.colors as RecursiveKeyValuePair<string, string>)
       .gray as RecursiveKeyValuePair<string, string>
   )["200"] as string) || "#E5E5E5";
 /* istanbul ignore next */
 const defaultBorderRadius =
-  (theme!.extend!.borderRadius as KeyValuePair<string, string>)["3"] || "3px";
+  (config.theme!.extend!.borderRadius as KeyValuePair<string, string>)["3"] || "3px";
 
 /**
  * Generic skeleton component for loading state. Current implementation wraps

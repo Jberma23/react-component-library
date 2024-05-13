@@ -42,7 +42,7 @@ export const clickableAndLinkStyles = cva(
     "hover:shadow-3",
     "focus-visible:outline",
     "focus-visible:outline-2",
-    "focus-visible:outline-brand",
+    "focus-visible:outline-teal-500",
     "cursor-pointer",
     "transition",
     "duration-default",

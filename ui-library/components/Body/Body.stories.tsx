@@ -1,5 +1,6 @@
 import { StoryFn, Meta } from "@storybook/react";
 import { Body, BodyProps } from "./Body";
+import { Title, Description, Subtitle, Story, Canvas, Source, Stories } from "@storybook/blocks";
 
 const sizes = ["small", "default", "large"] as BodyProps["size"][];
 
@@ -18,7 +19,20 @@ export default {
       options: sizes,
     },
   },
+  tags: ["autodocs"],
   parameters: {
+    componentSubtitle: "",
+    docs: {
+      page: () => (
+        <>
+        <Title/>
+        <Description/>
+        <Subtitle/>
+        <Stories/>
+        </>
+      )
+    },
+    
     backgrounds: { default: "light" },
   },
 } as Meta<typeof Body>;

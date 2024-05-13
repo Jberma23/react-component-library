@@ -1,13 +1,13 @@
 import type { StorybookConfig } from "@storybook/nextjs";
 
 const config: StorybookConfig = {
-  stories: ["../src/**/*.mdx", "../**/*.stories.@(js|jsx|mjs|ts|tsx)"],
+  stories: ["../src/**/*.mdx", "../ui-library/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)", "../ui-library/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
+    "@storybook/addon-onboarding",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-onboarding",
+    "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "storybook-tailwind-dark-mode",
   ],
   framework: {
     name: "@storybook/nextjs",

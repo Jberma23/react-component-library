@@ -3,7 +3,7 @@
 exports[`IconButton should match snapshot 1`] = `
 <DocumentFragment>
   <button
-    class="h-[40px] h-[40px] px-xs border-1 border-transparent rounded-md ring-offset-1 focus-visible:ring-2 focus-visible:ring-brand transition-colors duration-default bg-gray-200 hover:bg-gray-300 active:bg-gray-400 text-black w-fit leading-body font-semibold text-body-regular"
+    class="h-[40px] h-[40px] px-xs border-1 border-transparent rounded-md ring-offset-1 focus-visible:ring-2 focus-visible:ring-teal-500 transition-colors duration-default bg-gray-200 hover:bg-gray-300 active:bg-gray-400 text-black w-fit leading-body font-semibold text-body-regular"
   >
     <div
       class="flex flex-row gap-xxs"

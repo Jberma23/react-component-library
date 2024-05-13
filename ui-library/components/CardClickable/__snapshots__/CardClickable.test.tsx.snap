@@ -3,7 +3,7 @@
 exports[`CardClickable renders with defaults 1`] = `
 <DocumentFragment>
   <button
-    class="block rounded-3 hover:shadow-3 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand cursor-pointer transition duration-default bg-white shadow-1"
+    class="block rounded-3 hover:shadow-3 focus-visible:outline focus-visible:outline-2 focus-visible:outline-teal-500 cursor-pointer transition duration-default bg-white shadow-1"
   >
     test card
   </button>

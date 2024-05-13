@@ -7,7 +7,7 @@ const linkStyles = cva(
   [
     "items-center",
     "outline-2 outline-offset-2",
-    "focus-visible:outline-brand",
+    "focus-visible:outline-teal-500",
     "cursor-pointer",
   ],
   {

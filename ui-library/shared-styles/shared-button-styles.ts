@@ -6,7 +6,7 @@ export const buttonStyles = cva(
   [
     "border-1 border-transparent",
     "rounded-md",
-    "ring-offset-1 focus-visible:ring-2 focus-visible:ring-brand",
+    "ring-offset-1 focus-visible:ring-2 focus-visible:ring-teal-500",
     "transition-colors duration-default",
   ],
   {

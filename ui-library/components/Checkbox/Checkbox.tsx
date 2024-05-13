@@ -10,7 +10,7 @@ const checkboxStyles = cva(
     "appearance-none",
     "min-w-[1.25rem] w-[1.25rem] h-[1.25rem]",
     "border-1 border-gray-300",
-    "outline-brand outline-offset-2",
+    "outline-teal-500 outline-offset-2",
     "cursor-pointer",
     "checked:bg-primary checked:border-none",
     "bg-center bg-no-repeat",

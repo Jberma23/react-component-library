@@ -1,4 +1,5 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { Title, Description, Subtitle, Story, Canvas, Source } from "@storybook/blocks";
+import { Meta, StoryObj, } from "@storybook/react";
 import React from "react";
 import { Chip, ChipProps } from ".";
 
@@ -22,15 +23,29 @@ const meta: Meta<typeof Chip> = {
       options: appearances,
     },
   },
+  tags: ["autodocs"],
+  parameters: {
+    componentSubtitle: "",
+    docs: {
+      page: () => (
+        <>
+        <Title/>
+        <Description/>
+        <Subtitle/>
+        <Story/>
+        <Source/>
+        <Canvas/>
+        </>
+      )
+    }
+  }
 };
 
 export default meta;
 
 type Story = StoryObj<typeof Chip>;
 
-export const Default: Story = {
-  args: {},
-};
+export const Default: Story = {};
 
 export const Swatch = () => (
   <div className="flex flex-wrap gap-m">

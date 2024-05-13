@@ -69,8 +69,8 @@ export const Select = forwardRef<HTMLElement, SelectProps<OptionData>>(
             </div>
           </Listbox.Button>
           <div className="relative z-30">
-            <Listbox.Options className="outline-brand absolute w-full">
-              <Card className="outline-brand" elevation={1}>
+            <Listbox.Options className="outline-teal-500 absolute w-full">
+              <Card className="outline-teal-500" elevation={1}>
                 {children}
               </Card>
             </Listbox.Options>
